@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\libov">
+      <UniqueIdentifier>{982353c0-93d6-4092-8e59-b0b9f3751da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\libov">
+      <UniqueIdentifier>{d74b50b9-35f8-4eae-8eec-8ecf3142baec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libftdi">
+      <UniqueIdentifier>{8deb6f04-963f-459d-a6f8-6fa3fc07b14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libzip">
+      <UniqueIdentifier>{0725074f-7ecc-46e6-81c4-3fd14fae13dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="usbpc_cap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\bit.c">
+      <Filter>源文件\libov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cha.c">
+      <Filter>源文件\libov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chb.c">
+      <Filter>源文件\libov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\decoder.c">
+      <Filter>源文件\libov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fwpkg.c">
+      <Filter>源文件\libov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ov.c">
+      <Filter>源文件\libov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\reg.c">
+      <Filter>源文件\libov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libftdi\src\ftdi.c">
+      <Filter>源文件\libftdi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libftdi\src\ftdi_stream.c">
+      <Filter>源文件\libftdi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_add.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_add_dir.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_add_entry.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_algorithm_deflate.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_buffer.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_close.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_crypto_win.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_delete.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_dir_add.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_dirent.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_discard.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_entry.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_err_str.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_error.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_error_clear.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_error_get.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_error_get_sys_type.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_error_strerror.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_error_to_str.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_extra_field.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_extra_field_api.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_fclose.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_fdopen.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_add.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_error_clear.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_error_get.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_get_comment.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_get_external_attributes.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_get_offset.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_rename.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_replace.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_set_comment.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_set_encryption.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_set_external_attributes.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_set_mtime.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_file_strerror.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_filerange_crc.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_fopen.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_fopen_encrypted.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_fopen_index.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_fopen_index_encrypted.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_fread.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_fseek.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_ftell.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_get_archive_comment.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_get_archive_flag.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_get_encryption_implementation.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_get_file_comment.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_get_name.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_get_num_entries.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_get_num_files.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_hash.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_io_util.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_libzip_version.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_memdup.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_mkstempm.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_name_locate.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_new.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_open.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_progress.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_rename.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_replace.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_set_archive_comment.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_set_archive_flag.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_set_default_password.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_set_file_comment.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_set_file_compression.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_set_name.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_accept_empty.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_begin_write.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_begin_write_cloning.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_buffer.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_call.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_close.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_commit_write.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_compress.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_crc.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_error.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_filep.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_free.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_function.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_get_compression_flags.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_is_deleted.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_layered.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_open.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_pkware.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_read.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_remove.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_rollback_write.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_seek.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_seek_write.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_stat.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_supports.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_tell.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_tell_write.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_win32a.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_win32handle.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_win32utf8.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_win32w.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_window.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_winzip_aes_decode.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_winzip_aes_encode.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_write.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_zip.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_source_zip_new.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_stat.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_stat_index.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_stat_init.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_strerror.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_string.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_unchange.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_unchange_all.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_unchange_archive.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_unchange_data.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_utf-8.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_winzip_aes.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libzip\lib\zip_random_win32.c">
+      <Filter>源文件\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="timeofdaywin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\reg.h">
+      <Filter>头文件\libov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\bit.h">
+      <Filter>头文件\libov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cha.h">
+      <Filter>头文件\libov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\chb.h">
+      <Filter>头文件\libov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\decoder.h">
+      <Filter>头文件\libov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fwpkg.h">
+      <Filter>头文件\libov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ov.h">
+      <Filter>头文件\libov</Filter>
+    </ClInclude>
+    <ClInclude Include="zipconf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openvizsla_export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reg_gperf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
