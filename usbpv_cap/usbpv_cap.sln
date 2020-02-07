@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libusb-1.0 (static)", "..\l
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlibstat", "..\zlib\contrib\vstudio\vc14\zlibstat.vcxproj", "{745DEC58-EBB3-47A9-A9B8-4C6627C01BF8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libzip", "libzip.vcxproj", "{9651D64C-6676-4921-BE59-51A1E327ECFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Itanium = Debug|Itanium
@@ -76,6 +78,22 @@ Global
 		{745DEC58-EBB3-47A9-A9B8-4C6627C01BF8}.ReleaseWithoutAsm|x64.Build.0 = ReleaseWithoutAsm|x64
 		{745DEC58-EBB3-47A9-A9B8-4C6627C01BF8}.ReleaseWithoutAsm|x86.ActiveCfg = ReleaseWithoutAsm|Win32
 		{745DEC58-EBB3-47A9-A9B8-4C6627C01BF8}.ReleaseWithoutAsm|x86.Build.0 = ReleaseWithoutAsm|Win32
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.Debug|Itanium.ActiveCfg = Debug|Win32
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.Debug|x64.ActiveCfg = Debug|x64
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.Debug|x64.Build.0 = Debug|x64
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.Debug|x86.ActiveCfg = Debug|Win32
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.Debug|x86.Build.0 = Debug|Win32
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.Release|Itanium.ActiveCfg = Release|Win32
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.Release|x64.ActiveCfg = Release|x64
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.Release|x64.Build.0 = Release|x64
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.Release|x86.ActiveCfg = Release|Win32
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.Release|x86.Build.0 = Release|Win32
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.ReleaseWithoutAsm|Itanium.ActiveCfg = Release|x64
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.ReleaseWithoutAsm|Itanium.Build.0 = Release|x64
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.ReleaseWithoutAsm|x64.ActiveCfg = Release|x64
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.ReleaseWithoutAsm|x64.Build.0 = Release|x64
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.ReleaseWithoutAsm|x86.ActiveCfg = Release|Win32
+		{9651D64C-6676-4921-BE59-51A1E327ECFA}.ReleaseWithoutAsm|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
