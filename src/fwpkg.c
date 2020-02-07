@@ -11,7 +11,7 @@
 /* It is ok to have NULL hinstance in case of static linkage */
 static HINSTANCE hinstance = NULL;
 
-BOOL DllMain(HINSTANCE hinstDll, DWORD fdwReason, LPVOID lpvReserved) {
+BOOL WINAPI DllMain(HINSTANCE hinstDll, DWORD fdwReason, LPVOID lpvReserved) {
 	hinstance = hinstDll;
 	return TRUE;
 }
