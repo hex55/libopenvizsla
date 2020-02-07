@@ -96,6 +96,9 @@
     <PostBuildEvent>
       <Command>copy $(TargetPath) .\openvizslad.dll</Command>
     </PostBuildEvent>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\include;..;..\libzip\lib</AdditionalIncludeDirectories>
+    </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -181,6 +184,9 @@
     <ProjectReference Include="libzip.vcxproj">
       <Project>{9651d64c-6676-4921-be59-51a1e327ecfa}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\fwpkg.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
